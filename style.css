@@ -1,0 +1,91 @@
+@media screen and (max-width: 700px) {
+    .navbar {   
+    flex-direction: column;
+  }
+  }
+.navbar{
+position: relative; 
+}
+.navbar-brand {
+    color: purple !important ; 
+}             
+.dropdown-toggle {
+    position: absolute; 
+    top: 0px; 
+    left: 900px;
+}
+.carousel-item {
+    height: 450px;
+}
+.dropdown-menu.show{
+    position: absolute; 
+    top: 35px; 
+    left: 834px;
+}
+main{
+    background-color: #DBDBDB; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.items-infos {
+    width: 90%;
+     margin-left: 90px; 
+     margin-top: 30px;
+}
+.container { width: 500px; 
+    padding: 0px 0px !important; 
+    margin: 0px 0px !important;
+}
+.container img{
+    width:150px; 
+    height:150px;
+}
+#total {
+     width: 94%;
+      height: 70px;
+       background-color: gold;
+       display: flex;
+        flex-direction: row;
+      justify-content: flex-start;
+       padding-top: 20px;
+        border-radius: 5px;
+         color:black;
+         font-family: serif;
+
+}
+#total> p{
+    margin-right: 10px;
+}
+.fa-shopping-cart:before{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.row {
+ margin: 0px 0px 5px 0px !important; 
+  height: 300px; 
+  padding-left: 80px;
+   background-color: white
+}
+.col{
+    display: flex; flex-direction: row; 
+}
+.fa-times {
+margin-right: 15px;
+}
+.fa-plus-circle {
+    margin-right: 10px; 
+    color: darkgoldenrod;
+}
+.fa-minus-circle {
+    margin-left: 10px;
+     color: crimson;
+     
+}
+.titre{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: unset;
+    color: crimson;
+}
